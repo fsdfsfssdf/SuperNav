@@ -1,0 +1,54 @@
+{
+  "source": "/home/vector/SuperNav/data/synthetic/global_task/scene_a/tasks.json",
+  "instructions": [
+    {
+      "task_id": "task_001",
+      "slug": "task_001",
+      "text": "Find the synthetic yellow test prism.",
+      "spawn": {
+        "start_position": [
+          1.0,
+          0.2,
+          2.0
+        ],
+        "yaw": 0.5,
+        "sensor_height": 1.2
+      },
+      "goal": {
+        "instruction": "Find the synthetic yellow test prism.",
+        "position": [
+          3.0,
+          0.2,
+          4.0
+        ],
+        "radius_m": 0.4,
+        "provenance": {}
+      },
+      "ground_truth": {
+        "final_position": [
+          3.0,
+          0.2,
+          4.0
+        ],
+        "distance_threshold_m": 0.4,
+        "success_criterion": "dist_xz_to_target_bbox_surface <= goal_radius",
+        "target_object": null,
+        "geodesic_distance_m": 5.0,
+        "path_points": [
+          [
+            1.0,
+            0.2,
+            2.0
+          ],
+          [
+            3.0,
+            0.2,
+            4.0
+          ]
+        ],
+        "source_tasks_json": "/home/vector/SuperNav/data/synthetic/global_task/scene_a/tasks.json",
+        "source_task_id": "task_001"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scene_id": "scene_a",
+  "default_start_position": [1.0, 0.2, 2.0],
+  "default_start_yaw": 0.5,
+  "tasks": [
+    {
+      "task_id": "task_001",
+      "instruction": "Find the synthetic yellow test prism.",
+      "start_position": "default",
+      "goal_position": [3.0, 0.2, 4.0],
+      "goal_radius": 0.4,
+      "geodesic_distance_gt": 5.0,
+      "ground_truth_path": [[1.0, 0.2, 2.0], [3.0, 0.2, 4.0]]
+    }
+  ]
+}
